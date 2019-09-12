@@ -6,7 +6,7 @@ Casks for personal use, containing older versions for some Casks
 
 After you install homebrew-cask, run the following command:
 
-`brew tap nrlquaker/personal`
+`brew tap beskow/personal`
 
 You can now install casks from this repository:
 
