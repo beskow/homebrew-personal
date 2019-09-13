@@ -1,4 +1,4 @@
-cask 'iterm2-elCapitan' do
+cask 'iterm2-elcapitan' do
   # note: "2" is not a version number, but an intrinsic part of the product name
   version '3.1.7'
   sha256 'd5496b3c42fe2eaf65befef7d6d6682cde3e8cd1f042f63343f821e8582b1ede'
