@@ -1,4 +1,4 @@
-cask 'textmate-elCapitan' do
+cask 'textmate-elcapitan' do
   version '2.0-rc.10'
   sha256 'b8058fd562701b3bb7aab6bb7b1f3a5ac752f153fe258121aa54033cb154d20b'
 
