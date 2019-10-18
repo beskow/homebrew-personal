@@ -9,6 +9,8 @@ cask 'kindle-1.23' do
 
   app 'Kindle.app'
 
+  auto_updates true
+
   zap trash: [
                '~/Library/Preferences/com.amazon.Kindle.plist',
                '~/Library/Application Support/Kindle/',
