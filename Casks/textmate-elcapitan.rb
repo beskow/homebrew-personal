@@ -10,7 +10,7 @@ cask 'textmate-elcapitan' do
   homepage 'https://macromates.com/'
 
   auto_updates true
-  depends_on macos: '>= :mavericks'
+  depends_on macos: '>= :yosemite'
 
   app 'TextMate.app'
   binary "#{appdir}/TextMate.app/Contents/Resources/mate"
