@@ -9,7 +9,7 @@ cask 'iterm2-elcapitan' do
   homepage 'https://www.iterm2.com/'
 
   auto_updates true
-  depends_on macos: '>= :yosemite'
+  depends_on macos: '>= :el_capitan'
 
   app 'iTerm.app'
 
