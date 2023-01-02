@@ -36,7 +36,7 @@ class Harfbuzz < Formula
   def install
     args = %w[
       --default-library=both
-      -Dcairo=enabled
+      -Dcairo=auto
       -Dcoretext=enabled
       -Dfreetype=enabled
       -Dglib=enabled
