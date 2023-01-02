@@ -12,7 +12,7 @@ class Meson < Formula
 
   depends_on "ninja"
   depends_on "python@3.11"
-  depends_on "cargo"
+  depends_on "cairo"
 
   def install
     python = "python3.11"
