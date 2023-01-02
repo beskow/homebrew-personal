@@ -17,12 +17,12 @@ class Harfbuzz < Formula
   end
 
   depends_on "gobject-introspection" => :build
+  depends_on "cairo" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
   depends_on "python@3.11" => [:build, :test]
   depends_on "pygobject3" => :test
-  depends_on "cairo" => :build
   depends_on "freetype"
   depends_on "glib"
   depends_on "graphite2"
