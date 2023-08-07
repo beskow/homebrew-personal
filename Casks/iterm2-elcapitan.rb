@@ -4,7 +4,7 @@ cask 'iterm2-elcapitan' do
   sha256 'd5496b3c42fe2eaf65befef7d6d6682cde3e8cd1f042f63343f821e8582b1ede'
 
   url "https://iterm2.com/downloads/stable/iTerm2-#{version.dots_to_underscores}.zip"
-  appcast 'https://iterm2.com/appcasts/final.xml'
+  livecheck 'https://iterm2.com/appcasts/final.xml'
   name 'iTerm2'
   homepage 'https://www.iterm2.com/'
 

@@ -4,7 +4,7 @@ cask 'textmate-elcapitan' do
 
   # github.com/textmate/textmate was verified as official when first introduced to the cask
   url "https://github.com/textmate/textmate/releases/download/v#{version}/TextMate_#{version}.tbz"
-  appcast 'https://api.textmate.org/releases/release?os=10.11.6',
+  livecheck 'https://api.textmate.org/releases/release?os=10.11.6',
           configuration: version
   name 'TextMate'
   homepage 'https://macromates.com/'

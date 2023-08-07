@@ -4,7 +4,7 @@ cask 'jumpcut-elcapitan' do
 
   # downloads.sourceforge.net/jumpcut was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/jumpcut/jumpcut/#{version}/Jumpcut_#{version}.tgz"
-  appcast 'https://jumpcut.sourceforge.io/jumpcut.appcast.xml'
+  livecheck 'https://jumpcut.sourceforge.io/jumpcut.appcast.xml'
   name 'Jumpcut'
   homepage 'https://jumpcut.sourceforge.io/'
 
